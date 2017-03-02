@@ -1,0 +1,18 @@
+galaxy_info:
+  author: ypsman
+  description: setup backports on Debian jessie and wheezy
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - jessie
+  galaxy_tags:
+  - apt
+  - repositories
+  - repo
+  - backports
+  - backport
+  - debian
+dependencies: []
