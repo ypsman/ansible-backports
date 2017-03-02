@@ -5,5 +5,5 @@
     state: present
     filename: backports
     update_cache: yes
-    when: (ansible_distribution_release == 'jessie') or
-          (ansible_distribution_release == 'wheezy')
+  when: (ansible_distribution_release == 'jessie') or
+        (ansible_distribution_release == 'wheezy')
