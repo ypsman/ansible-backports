@@ -7,4 +7,5 @@
     update_cache: yes
   when: (ansible_distribution_release == 'jessie') or
         (ansible_distribution_release == 'wheezy') or
-        (ansible_distribution_release == 'stretch')
+        (ansible_distribution_release == 'stretch') or
+        (ansible_distribution_release == 'bullseye')
