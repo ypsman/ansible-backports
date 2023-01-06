@@ -1,6 +1,6 @@
 galaxy_info:
   author: ypsman
-  description: setup backports on Debian jessie and wheezy
+  description: Setup backports on Debian jessie, wheezy, stretch, and bullseye.
   license: license (GPLv2, CC-BY, etc)
   min_ansible_version: 1.2
   platforms:
@@ -9,6 +9,7 @@ galaxy_info:
     - wheezy
     - jessie
     - stretch
+    - bullseye
   galaxy_tags:
   - apt
   - repositories
