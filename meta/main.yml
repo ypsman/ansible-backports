@@ -9,6 +9,7 @@ galaxy_info:
     - wheezy
     - jessie
     - stretch
+    - bullseye
   galaxy_tags:
   - apt
   - repositories
